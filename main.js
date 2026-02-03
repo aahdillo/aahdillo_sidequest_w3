@@ -46,7 +46,7 @@ function handleClicks() {
       state = "lose";
     }
   } else if (state === "win" || state === "lose") {
-    stress = ":0";
+    stress = 0;
     state = "start";
   }
 }
